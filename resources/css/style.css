@@ -27,7 +27,7 @@ nav {
 }
 
 nav li {
-  color: #fffff;
+  color: #ffff;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size 12px;
@@ -138,7 +138,83 @@ main {
   font-family: "Hammersmith One";
   color: #ff8000;
 }
-#work .supporting h2{
+
+.supporting {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.menu-section{
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.items {
+  flex: 2;
+  display: flex;
+  padding: 0px 200px;
+  justify-content: space-evenly;
+}
+
+.item {
+  flex: 2;
+  display: flex;
+  padding: 0px 200px;
+  justify-content: space-evenly;
+}
+
+.col img {
+  width: auto;
+  height: auto;
+  max-width: 40%;
+  max-height: 30%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  flex: 1 1 auto;
+  padding: 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-family: "Merriweather"
+  font-size: 20px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting .col {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  width: 250px;
+  display: inline-block;
+  padding: 50px 20px;
+}
+
+.supporting a {
+  background-color: #4C89FF;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: 2px solid #F0AA00;
+}
+
+/* #work .supporting h2{
   text-align: center;
   margin-bottom: 2.4375rem;
   line-height: 1;
@@ -159,6 +235,7 @@ main {
   color: #ff8000;
 }
 .supporting {
+  
   padding-top: 20px;
   padding-bottom: 10px;
 }
@@ -197,7 +274,7 @@ main {
   cursor: pointer;
   margin-bottom: 10px;
   border: 2px solid #F0AA00;
-}
+} */
 
 .supporting a:hover{
     background-color: #E57F00;
